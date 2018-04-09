@@ -76,3 +76,5 @@ const paintBoard = (board) => {
   }
   console.log(outString);
 }
+
+export default TicTacToe;
