@@ -34,8 +34,7 @@ const TicTacToe = () => {
       xTurn = !xTurn;
     }
   }
-
-  printBoard(board);
+  paintBoard(board);
   console.log(winner, ' is the winner');
 
 }
@@ -76,3 +75,5 @@ const paintBoard = (board) => {
   }
   console.log(outString);
 }
+
+TicTacToe();
